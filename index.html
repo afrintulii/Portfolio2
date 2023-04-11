@@ -20,15 +20,66 @@
       </div>
 
       <!--------#HEADER-->
-      <header class="header" data-header>
+      <header class="header active" data-header>
         <div class="container">
-            <a href="" class="logo">
+            <a href="#" class="logo">
                 <img src="logo.svg"  width="40"  height="40" alt="Mahmuda Afrin">
             </a>
-            <button class="nav-open-btn" aria-label="open menu">
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
               <img src="menu.svg"  width="17" height="17" alt="menu icon">
-
+             </button>
+             <nav class="navbar " data-navbar>
+              <div class="navbar-top">
+                <a href="#" class="logo">
+                 <img src="nav-logo.svg" width="140" height="40"
+                  alt="Mahmuda Afrin" class="img">
+                </a>
+                <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                  <span class="span one"></span>
+                  <span class="span two"></span>
+                </button>
+              </div>
+              <ul class="navbar-list">
+                <li class="navbar-item">
+                  <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#about" class="navbar-link" data-nav-link>About Me</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#education" class="navbar-link" data-nav-link>Education</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#projects" class="navbar-link" data-nav-link>Projects</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#gallery" class="navbar-link" data-nav-link>Gallery</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#services" class="navbar-link">Services</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#contact" class="navbar-link" data-nav-link>Contact Us</a>
+                </li>
+              </ul>
+            <button class="login-btn">
+              <img src="user.svg"  width="21" height="21"   alt="user icon">
+             <span class="span">Login</span>
             </button>
+            <p class="navbar-title">My Address</p>
+            <address class="navbar-text">Binodpur,Rajshahi,Bangladesh</address>
+            <p class="navbar-text">
+              Urgent issue? Call us at
+             <a href="tel:017333333333" class="contact-link">017333333333</a> 
+            </p>
+            </nav>
+            <div class="overlay " data-nav-toggler data-overlay></div>
         </div>
       </header>
         
